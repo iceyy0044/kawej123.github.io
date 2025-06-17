@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const submitBtn = this.querySelector(".btn")
       const originalText = submitBtn.textContent
 
-      submitBtn.textContent = "Odesilá sa..."
+      submitBtn.textContent = "Odosiela sa..."
       submitBtn.style.background = "#ccc"
       submitBtn.disabled = true
 
