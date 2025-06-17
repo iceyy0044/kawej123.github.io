@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Kawej123</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Kawej123</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Domov</a></li>
+                    <li><a href="produkty.html">Naša ponuka</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header contact-header">
+        <div class="container">
+            <h2 class="fade-in">Kontaktujte nás</h2>
+            <p class="fade-in">Radi vám odpovieme na všetky otázky</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-info slide-left">
+                <h3>Kontaktné údaje</h3>
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <h4>Adresa</h4>
+                        <p>Hlavná 123, 811 01 Bratislava</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📞</span>
+                    <div>
+                        <h4>Telefón</h4>
+                        <p>+421 901 234 567</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">✉️</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@kawej123.sk</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">🕒</span>
+                    <div>
+                        <h4>Otváracie hodiny</h4>
+                        <p>Pondelok - Piatok: 7:00 - 20:00</p>
+                        <p>Sobota - Nedeľa: 9:00 - 21:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form slide-right">
+                <h3>Napíšte nám</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Meno a priezvisko</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Predmet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Správa</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn pulse">Odoslať správu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <h3 class="fade-in">Kde nás nájdete</h3>
+            <div class="map-container slide-up">
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Mapa s umiestnením kaviarne Kawej123">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Kawej123</h2>
+                    <p>Vaša moderná kaviareň</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Rýchle odkazy</h3>
+                    <ul>
+                        <li><a href="index.html">Domov</a></li>
+                        <li><a href="produkty.html">Naša ponuka</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Kontakt</h3>
+                    <p>Hlavná 123, Bratislava</p>
+                    <p>Tel: +421 901 234 567</p>
+                    <p>Email: info@kawej123.sk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kawej123. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
